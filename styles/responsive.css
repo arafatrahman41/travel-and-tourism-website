@@ -3,16 +3,26 @@
   .container {
     width: 100%;
   }
-  .nav-container {
+  /* .nav-container {
     flex-direction: column;
-  }
+  } */
   .nav-container .nav-logo {
     width: 100%;
   }
   .nav-container .nav-logo h1 .web-title {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+  }
+  .nav-container .nav-logo img {
+    width: 3rem;
   }
   .nav-container .nav-menu {
     width: 100%;
+  }
+  .nav-container .nav-menu ul li{
+    display: none;
+  }
+  .nav-container .nav-menu ul li:last-child{
+    display: inline;
+    margin-left: 7.5rem;
   }
 }

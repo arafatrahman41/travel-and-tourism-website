@@ -14,13 +14,14 @@ body {
   width: 81%;
   margin: 0 auto;
 }
+/* nav style */
 .nav-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 3rem;
 }
 .nav-container .nav-logo {
-  border: 2px solid green;
   width: 48%;
   display: flex;
   align-items: center;
@@ -39,10 +40,7 @@ body {
 .nav-container .nav-logo img {
   width: 5rem;
 }
-
-
 .nav-container .nav-menu {
-  border: 2px solid blue;
   width: 48%;
   white-space: nowrap;
 }
@@ -53,6 +51,9 @@ body {
 .nav-container .nav-menu ul li {
   list-style: none;
 }
+.nav-container .nav-menu ul li:last-child {
+  display: none;
+}
 .nav-container .nav-menu ul a {
   text-decoration: none;
   font-size: 18px;
@@ -60,6 +61,45 @@ body {
   font-weight: 700;
   line-height: normal;
 }
-.nav-container .nav-menu ul li span{
-    color:#fd5400;
+.nav-container .nav-menu ul li span {
+  color: #fd5400;
 }
+
+/* banner style */
+.banner-container {
+  height: 31.25rem;
+  margin-top: 3rem;
+  background-image: url("../images/Group13\(1\)\(1\).png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  object-fit: cover;
+}
+.banner-container .banner-description {
+  text-align: center;
+  padding-top: 6.25rem;
+}
+.banner-button {
+  width: 70%;
+  margin: auto;
+  height: 5rem;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+  text-align: center;
+  margin-top: 3rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-button button {
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 1rem 2rem 1rem 0.9rem;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+}
+
