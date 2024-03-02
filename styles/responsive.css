@@ -1,11 +1,8 @@
 /* small device */
 @media screen and (max-width: 600px) {
   .container {
-    width: 100%;
+    width: 95%;
   }
-  /* .nav-container {
-    flex-direction: column;
-  } */
   .nav-container .nav-logo {
     width: 100%;
   }
@@ -25,8 +22,11 @@
     display: inline;
     margin-left: 7.5rem;
   }
+  .banner-container{
+    margin-top: 1rem;
+  }
   .banner-container .banner-description {
-    padding-top: 2rem;
+    padding-top: 1rem;
    
   }
   .banner-container .banner-description h1{
@@ -44,7 +44,7 @@
     justify-content: center;
     width: 90%;
     height: 20rem;
-    margin-top: 1rem;
+    margin-top: .2rem;
     
   }
   .banner-container .banner-button .travel-button{
@@ -59,5 +59,66 @@
     display:flex;
     justify-content: flex-end;
     align-items: center;
+  }
+  .our-tours-container{
+    margin-top: 1.5rem;
+  }
+  .our-tours-container .our-tours-content {
+    flex-direction: column;
+  }
+  .our-tours-container .our-tours-content .our-tours-description{
+    width: 100%;
+  }
+  .our-tours-container .our-tours-content .our-tours-image{
+    margin-top: 1.5rem;
+    width: 100%;
+  }
+  .our-tours-container .our-tours-content .our-tours-description h1, p{
+    margin-bottom: .8rem;
+  }
+  .our-tours-container .our-tours-content button{
+    margin-top: 1.2rem;
+  }
+  .destination-container{
+    margin-top: 1.5rem;
+  }
+  .destination-container h1{
+    font-size: 1.4rem;
+    margin-bottom: .5rem;
+  }
+  .destination-container p{
+    margin-bottom: 1rem;
+  }
+  .destination-container .destination-image{
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, 1fr);
+  }
+  .maldive{
+    grid-column: 1/span 1;
+    grid-row: 1/span 1;
+  }
+  .bali{
+    grid-column: 1/span 1;
+    grid-row: 2/span 1;
+  }
+  .srilanka{
+    grid-column: 1/span 1;
+    grid-row: 3/span 1;
+  }
+  .america{
+    grid-column: 1/span 1;
+    grid-row: 4/span 1;
+  }
+  .kashmir{
+    grid-column: 1/span 1;
+    grid-row: 5/span 1;
+  }
+  .bangladesh{
+    grid-column: 1/span 1;
+    grid-row: 6/span 1;
+  }
+  .bandarban{
+    grid-column: 1/span 1;
+    grid-row: 7/span 1;
   }
 }
