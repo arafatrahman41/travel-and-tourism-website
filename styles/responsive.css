@@ -25,4 +25,39 @@
     display: inline;
     margin-left: 7.5rem;
   }
+  .banner-container .banner-description {
+    padding-top: 2rem;
+   
+  }
+  .banner-container .banner-description h1{
+    font-size: 1.2rem;
+    color: #a5a4a4;
+  }
+  .banner-container .banner-description p{
+    margin-top: .5rem;
+    color: #a1a1a1;
+  }
+  .banner-container .banner-button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 20rem;
+    margin-top: 1rem;
+    
+  }
+  .banner-container .banner-button .travel-button{
+    margin: .6rem auto;
+    width: 90%;
+    text-align: left;
+  }
+  .banner-container .banner-button #button-4{
+    text-align: center;
+  }
+  .banner-container .banner-button .fa-angle-down{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
 }

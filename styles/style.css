@@ -71,12 +71,29 @@ body {
   margin-top: 3rem;
   background-image: url("../images/Group13\(1\)\(1\).png");
   background-repeat: no-repeat;
-  background-size: 100%;
+  /* background-size: 100%; */
+  background-size: cover;
   object-fit: cover;
 }
 .banner-container .banner-description {
   text-align: center;
   padding-top: 6.25rem;
+}
+.banner-container .banner-description h1 {
+  color: #fff;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.banner-container .banner-description p {
+  margin-top: 1.5rem;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
 }
 .banner-button {
   width: 70%;
@@ -97,9 +114,27 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  padding: 1rem 2rem 1rem 0.9rem;
+  padding: 1rem 0.9rem 1rem 0.9rem;
   border-radius: 8px;
   background: #fff;
   border: none;
+}
+.banner-container .banner-button .travel-button{
+  width: 12rem;
+}
+.banner-button button .fa-angle-down {
+  padding-left: 3rem;
+}
+.banner-button #when{
+  padding-left: 5.5rem;
+}
+.banner-button button .fa-magnifying-glass {
+  padding-left: 1.5rem;
+  padding-right: 0.4rem;
+}
+.banner-button #button-4 {
+  background-color: #ff5400;
+  color: #fff;
+  padding-right: 2rem;
 }
 
