@@ -340,3 +340,24 @@ button {
 .newsletter-container .newsletter-content .newsletter-image .save h1{
   font-size: 2rem;
 }
+
+/* footer style */
+footer{
+  margin-top: 6.25rem;
+  background: rgba(19, 19, 24, 0.05);
+}
+.footer-title{
+  display: flex;
+  align-items: center;
+}
+.footer-title img{
+  width: 5rem;
+  background-color: rgba(19, 19, 24, 0.05);;
+}
+footer .footer-icons{
+  display: flex;
+  gap: 2rem;
+}
+footer .footer-icons .icons .fa-brands{
+ font-size: 1.8rem;
+}
