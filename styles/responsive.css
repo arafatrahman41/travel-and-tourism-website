@@ -68,6 +68,7 @@
   }
   .our-tours-container .our-tours-content .our-tours-description{
     width: 100%;
+    text-align: center;
   }
   .our-tours-container .our-tours-content .our-tours-image{
     margin-top: 1.5rem;
@@ -120,5 +121,42 @@
   .bandarban{
     grid-column: 1/span 1;
     grid-row: 7/span 1;
+  }
+
+  .choose-container {
+    margin-top: 1.5rem;
+  }
+  .choose-container h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .choose-container >p{
+    margin: 1rem auto 1rem;
+    width: 23rem;
+  }
+  .choose-container .choose-us-card .card h2{
+    margin: 1rem auto 1rem;
+    font-size: 1.3rem;
+  }
+
+  .newsletter-container .newsletter-content{
+    margin-top: 1.5rem;
+    flex-direction: column;
+  } 
+  .newsletter-container .newsletter-content .newsletter-field{
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+  .newsletter-container .newsletter-content .newsletter-image{
+    width: 100%;
+  }
+  .newsletter-container .newsletter-content .newsletter-image .save{
+    left: 48%;
+  }
+  .newsletter-container .newsletter-content .newsletter-image .save h3{
+    font-size: .8rem;
+  }
+  .newsletter-container .newsletter-content .newsletter-image .save h1{
+    font-size: 1.2rem;
   }
 }
