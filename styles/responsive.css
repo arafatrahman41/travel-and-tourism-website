@@ -166,6 +166,9 @@
   footer{
     margin-top: 1.5rem;
   }
+  .footer-container>p{
+    width: auto;
+  }
   .footer-container .footer-title h1{
     font-size: 1.4rem;
   }

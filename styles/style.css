@@ -242,6 +242,22 @@ p {
   grid-column: 7 / span 6;
   grid-row: 3 / span 1;
 }
+/* local bites section */
+.local-bites-container{
+  margin-top: 6.25rem;
+}
+.local-bites-container .local-bites-content{
+  height: 31.25rem;
+  background-image: url('../images/food3.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  text-align: center;
+}
+.local-bites-container .local-bites-content h1{
+  color: whitesmoke;
+  padding-top: 6.25rem;
+}
 
 /* why choose us style */
 .choose-container {
@@ -355,6 +371,10 @@ footer{
 }
 .footer-title span{
   color: #ff5400;
+}
+.footer-container> p{
+width: 40rem;
+margin: 0 auto;
 }
 .footer-container hr{
   margin-bottom: 3rem;
