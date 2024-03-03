@@ -216,57 +216,74 @@ p {
   grid-template-rows: repeat(3, 1fr);
   gap: 1rem;
 }
+.destination-container .destination-image h2 {
+  color: #fff;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  position: absolute;
+  bottom: 50%;
+  left: 35%;
+}
 .maldive {
   grid-column: 1 / span 6;
   grid-row: 1 / span 1;
+  position: relative;
 }
 .bali {
   grid-column: 7 / span 6;
   grid-row: 1 / span 1;
+  position: relative;
 }
 .srilanka {
   grid-column: 1 / span 4;
   grid-row: 2 / span 1;
+  position: relative;
 }
 .america {
   grid-column: 5 / span 5;
   grid-row: 2 / span 1;
+  position: relative;
 }
 .kashmir {
   grid-column: 10 / span 3;
   grid-row: 2 / span 1;
+  position: relative;
 }
 .bangladesh {
   grid-column: 1 / span 6;
   grid-row: 3 / span 1;
+  position: relative;
 }
 .bandarban {
   grid-column: 7 / span 6;
   grid-row: 3 / span 1;
+  position: relative;
 }
 /* local bites section */
-.local-bites-container{
+.local-bites-container {
   margin-top: 6.25rem;
 }
-.local-bites-container .local-bites-content{
+.local-bites-container .local-bites-content {
   height: 31.25rem;
-  background-image: url('../images/food3.jpg');
+  background-image: url("../images/food3.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   object-fit: cover;
   text-align: center;
   border-radius: 1rem;
 }
-.local-bites-container .local-bites-content h1{
+.local-bites-container .local-bites-content h1 {
   color: rgb(255, 255, 255);
   padding-top: 6.25rem;
 }
-.local-bites-container .local-bites-content p{
+.local-bites-container .local-bites-content p {
   width: 50%;
   margin: 1rem auto;
   color: rgb(255, 255, 255);
 }
-.local-bites-container .local-bites-content button{
+.local-bites-container .local-bites-content button {
   width: 20%;
 }
 
@@ -357,48 +374,48 @@ button {
   background: #ff5400;
   padding: 1.5rem 0;
   position: absolute;
-  bottom:14%;
+  bottom: 14%;
   left: 49%;
   transform: rotate(-19.628deg);
 }
-.newsletter-container .newsletter-content .newsletter-image .save h3{
+.newsletter-container .newsletter-content .newsletter-image .save h3 {
   font-size: 1.2rem;
 }
-.newsletter-container .newsletter-content .newsletter-image .save h1{
+.newsletter-container .newsletter-content .newsletter-image .save h1 {
   font-size: 2rem;
 }
 
 /* footer style */
-footer{
+footer {
   margin-top: 6.25rem;
   background: rgba(19, 19, 24, 0.05);
 }
 
-.footer-title{
+.footer-title {
   display: flex;
   align-items: center;
   justify-content: center;
   padding-top: 6.27rem;
 }
-.footer-title span{
+.footer-title span {
   color: #ff5400;
 }
-.footer-container> p{
-width: 40rem;
-margin: 0 auto;
+.footer-container > p {
+  width: 40rem;
+  margin: 0 auto;
 }
-.footer-container hr{
+.footer-container hr {
   margin-bottom: 3rem;
 }
-.footer-title img{
+.footer-title img {
   width: 5rem;
 }
-footer .footer-icons{
+footer .footer-icons {
   display: flex;
   justify-content: center;
   gap: 2rem;
   margin: 2rem auto 3rem;
 }
-footer .footer-icons .icons .fa-brands{
- font-size: 1.8rem;
+footer .footer-icons .icons .fa-brands {
+  font-size: 1.8rem;
 }

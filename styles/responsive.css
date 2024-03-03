@@ -184,7 +184,16 @@
   .footer-container>p{
     width: auto;
   }
+  .footer-container hr{
+    margin-bottom: 1.5rem;
+  }
+  .footer-container .footer-title{
+    padding-top: 2rem;
+  }
   .footer-container .footer-title h1{
     font-size: 1.4rem;
+  }
+  .footer-container p{
+    padding-bottom: 1rem;
   }
 }
