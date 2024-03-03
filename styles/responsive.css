@@ -199,4 +199,7 @@
   .footer-container p{
     padding-bottom: 1rem;
   }
+  .footer-container .copy-right{
+    padding-bottom: 1rem;
+  }
 }
