@@ -122,6 +122,9 @@
     grid-column: 1/span 1;
     grid-row: 7/span 1;
   }
+  .destination-container .destination-image h2{
+    left: 28%;
+  }
 
   .local-bites-container {
     margin-top: 1.5rem;
