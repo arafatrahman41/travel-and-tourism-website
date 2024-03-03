@@ -123,6 +123,21 @@
     grid-row: 7/span 1;
   }
 
+  .local-bites-container {
+    margin-top: 1.5rem;
+  }
+  .local-bites-container .local-bites-content h1{
+    font-size: 1.5rem;
+    padding-top: 5rem;
+  }
+  .local-bites-container .local-bites-content p{
+    width: auto;
+    margin: .5rem auto;
+  }
+  .local-bites-container .local-bites-content button{
+    width: 80%;
+  }
+
   .choose-container {
     margin-top: 1.5rem;
   }

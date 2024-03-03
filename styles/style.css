@@ -29,6 +29,7 @@ body {
   line-height: 1.5rem;
 }
 .primary-button {
+  cursor: pointer;
   border-radius: 8px;
   background: #ff5400;
   border: none;
@@ -143,6 +144,7 @@ body {
   border-radius: 8px;
   background: #fff;
   border: none;
+  cursor: pointer;
 }
 .banner-container .banner-button .travel-button {
   width: 12rem;
@@ -255,8 +257,16 @@ p {
   text-align: center;
 }
 .local-bites-container .local-bites-content h1{
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
   padding-top: 6.25rem;
+}
+.local-bites-container .local-bites-content p{
+  width: 50%;
+  margin: 1rem auto;
+  color: rgb(255, 255, 255);
+}
+.local-bites-container .local-bites-content button{
+  width: 20%;
 }
 
 /* why choose us style */
