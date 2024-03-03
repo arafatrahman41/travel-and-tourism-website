@@ -9,7 +9,6 @@ body {
   font-family: "Mulish", sans-serif;
 }
 .container {
-  border: 2px solid red;
   max-width: 1440px;
   width: 81%;
   margin: 0 auto;
@@ -100,6 +99,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   object-fit: cover;
+  border-radius: 1rem;
 }
 .banner-container .banner-description {
   text-align: center;
@@ -255,6 +255,7 @@ p {
   background-repeat: no-repeat;
   object-fit: cover;
   text-align: center;
+  border-radius: 1rem;
 }
 .local-bites-container .local-bites-content h1{
   color: rgb(255, 255, 255);
