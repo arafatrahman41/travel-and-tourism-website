@@ -287,7 +287,7 @@ p {
   align-items: center;
 }
 .newsletter-container .newsletter-content .newsletter-field {
-  border: 2px solid #ff5400;
+  border: 1px solid #ff5400;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
@@ -346,17 +346,27 @@ footer{
   margin-top: 6.25rem;
   background: rgba(19, 19, 24, 0.05);
 }
+
 .footer-title{
   display: flex;
   align-items: center;
+  justify-content: center;
+  padding-top: 6.27rem;
+}
+.footer-title span{
+  color: #ff5400;
+}
+.footer-container hr{
+  margin-bottom: 3rem;
 }
 .footer-title img{
   width: 5rem;
-  background-color: rgba(19, 19, 24, 0.05);;
 }
 footer .footer-icons{
   display: flex;
+  justify-content: center;
   gap: 2rem;
+  margin: 2rem auto 3rem;
 }
 footer .footer-icons .icons .fa-brands{
  font-size: 1.8rem;

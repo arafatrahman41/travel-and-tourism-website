@@ -139,6 +139,9 @@
     font-size: 1.3rem;
   }
 
+  .newsletter-container{
+    margin-top: 1.5rem;
+  }
   .newsletter-container .newsletter-content{
     margin-top: 1.5rem;
     flex-direction: column;
@@ -158,5 +161,12 @@
   }
   .newsletter-container .newsletter-content .newsletter-image .save h1{
     font-size: 1.2rem;
+  }
+  
+  footer{
+    margin-top: 1.5rem;
+  }
+  .footer-container .footer-title h1{
+    font-size: 1.4rem;
   }
 }
